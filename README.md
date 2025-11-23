@@ -1,0 +1,1 @@
+# nextflow-subfolder-basedir-asset-caching
