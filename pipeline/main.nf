@@ -21,6 +21,6 @@ process test_project {
 
 workflow {
     names = Channel.from(['foo', 'bar'])
-    asset_dir = file("${projectDir}/../assets")
+    asset_dir = file("${projectDir}/../assets", type: 'dir')
     test_project(names, asset_dir)
 }
